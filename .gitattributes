@@ -1,0 +1,19 @@
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.def text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.png binary
+*.jpg binary
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Keep the committed historical snapshot byte for byte.
+archive/legacy-2026-10-14/tree/** -text

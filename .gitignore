@@ -1,0 +1,26 @@
+# Local credentials and personal settings
+.env
+.env.*
+!.env.example
+*.local.json
+
+# Local design-tool state
+.impeccable/
+
+# Generated output and local research dependencies
+build/
+out/
+.vs/
+*.user
+.tools/
+.deps/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+
+# Private legacy working tree, local state and dependency caches
+/.local-archive/
+
+# Historical source and records stay local after the GitHub restart
+/archive/legacy-2026-10-14/
